@@ -43,6 +43,10 @@ This dashboard showcases my ability to handle real-world data, perform comprehen
 - **Streamlit:** Framework for creating the interactive web application.
 - **Plotly:** Library for creating dynamic visualizations.
 
+### Dashboard Functionality
+
+![Dashboard Functionality](Images/Dashboardvid.gif)
+
 [NYC Airbnb Dashboard](https://nyc-airbnb-dashboard.streamlit.app/)
 
 ## Articles:
