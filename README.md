@@ -1,11 +1,42 @@
 # Portfolio
 
 ## About Me
-I am a graduate student at the Zicklin School of Business, finalizing my Master's of Science with a concentration in Data Analytics. I expect to graduate in December 2024. Through my studies, I have developed a strong foundation in data analysis, statistical modeling, and machine learning. My portfolio showcases a range of projects that highlight my skills in data exploration, visualization, and predictive modeling. I am eager to apply my knowledge and skills to real-world challenges and contribute to data-driven decision-making in a professional setting.
+I have earned a degree in Master of Science in Business Analytics from the Zicklin School of Business, with a concentration in Data Analytics. Through my academic journey, I've built expertise in machine learning, statistical modeling, and advanced data analysis techniques. My portfolio demonstrates my proficiency in end-to-end data science workflows - from exploratory data analysis and feature engineering to model development and evaluation. Each project showcases my ability to extract meaningful insights from complex datasets using Python and R, while creating compelling visualizations to communicate findings effectively. I am passionate about leveraging data science to solve real-world problems and drive data-informed decision-making.
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/matthew-paz/) or send me an [email](mailto:paz.matthew@me.com).
 
 ## Projects
+
+## Text Classification with NLP & Machine Learning: Detecting Review Authenticity
+
+This project focuses on developing and evaluating NLP-based classification models to identify verified and unverified product reviews in e-commerce platforms. With fake reviews influencing $152 billion in global online spending, the project aims to enhance trust in online review systems through advanced text analysis and machine learning techniques.
+
+## Libraries and Tools Used
+- pandas
+- NLTK
+- scikit-learn
+- matplotlib
+- seaborn
+- imbalanced-learn (for SMOTE)
+
+## Technical Highlights
+- Processed a balanced dataset of 200,000 e-commerce reviews using stratified sampling
+- Engineered NLP features including:
+  - Part-of-speech tagging (nouns, adjectives, verbs)
+  - Named Entity Recognition for product/brand mentions
+  - Sentiment analysis scores
+  - Text statistics and linguistic patterns
+- Addressed significant class imbalance (96% verified vs 4% unverified) using SMOTE
+- Implemented and compared multiple classification models
+
+## Conclusion
+The Random Forest classifier emerged as the best-performing model with an overall accuracy of 86%, achieving high precision in identifying both verified (88%) and unverified (81%) reviews. The model effectively handles the class imbalance challenge, demonstrated by balanced F1 scores (0.89/0.78) for both classes. This solution provides a robust framework for enhancing trust in e-commerce platforms by accurately flagging potential unverified reviews.
+
+## Impact
+- Achieved 86% accuracy in distinguishing verified from unverified reviews
+- Created a scalable framework for automated review authentication
+- Demonstrated practical application of NLP techniques in real-world business problems
+  
 ## Marketing Binary Classification Project
 
 This project focuses on building and evaluating binary classification models to predict whether a consumer will respond to an offer from a sales campaign, with a binary target variable representing acceptance (1) or not-accepted (0). The analysis involves Exploratory Data Analysis (EDA), feature engineering, model selection, and performance evaluation.
