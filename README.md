@@ -36,6 +36,8 @@ The Random Forest classifier emerged as the best-performing model with an overal
 - Achieved 86% accuracy in distinguishing verified from unverified reviews
 - Created a scalable framework for automated review authentication
 - Demonstrated practical application of NLP techniques in real-world business problems
+
+[Text Classification with NLP & Machine Learning Project](Projects/review_classifier.ipynb)
   
 ## Marketing Binary Classification Project
 
