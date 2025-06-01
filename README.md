@@ -37,9 +37,9 @@ The Random Forest classifier emerged as the best-performing model with an overal
 - Created a scalable framework for automated review authentication
 - Demonstrated practical application of NLP techniques in real-world business problems
 
-[Text Classification with NLP & Machine Learning Project](Projects/review_classifier.ipynb)
-  
-## Marketing Binary Classification Project
+[Text Classification with NLP & Machine Learning Project](https://nbviewer.org/github/mattpaznyc/review-trust-nlp/blob/main/review_classifier.ipynb)
+
+  ## Marketing Binary Classification Project
 
 This project focuses on building and evaluating binary classification models to predict whether a consumer will respond to an offer from a sales campaign, with a binary target variable representing acceptance (1) or not-accepted (0). The analysis involves Exploratory Data Analysis (EDA), feature engineering, model selection, and performance evaluation.
 
